@@ -1,4 +1,6 @@
 # booking/views.py
+
+from django.shortcuts import render
 from rest_framework import viewsets
 from .models import Flight, Passenger
 from .serializers import FlightSerializer, PassengerSerializer
